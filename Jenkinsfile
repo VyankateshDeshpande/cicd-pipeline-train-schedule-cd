@@ -1,6 +1,7 @@
 pipeline {
     agent any
     stages {
+	input 'Hey Man Should I start the Build???'
         stage('Build') {
             steps {
                 echo 'Running build automation'
